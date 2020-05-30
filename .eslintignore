@@ -1,0 +1,6 @@
+.cache
+.tscache
+node_modules
+public
+types/gatsby-graphql.ts
+static

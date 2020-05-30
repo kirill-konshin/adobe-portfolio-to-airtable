@@ -1,0 +1,28 @@
+{
+  "name": "adobe-portfolio",
+  "version": "1.0.0",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint --fix",
+    "lint:all": "yarn lint './*(demo|packages)/*/src/**/*.{jsx,js,tsx,ts}'",
+    "lint:staged": "lint-staged"
+  },
+  "author": "Kirill Konshin <kirill.konshin@gmail.com> (http://dis.dj)",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "airtable": "^0.8.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-ringcentral-typescript": "^3.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "typescript": "^3.9.3"
+  }
+}
